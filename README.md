@@ -3,8 +3,8 @@ README - Lockdown Task Generator
 
 A Python application with GUI that randomly generates tasks,
 quotes and videos to keep the user entertained during 
-the Covid-19 lockdown. The ability to check if you have common
-coronavirus symptoms is also implemented.
+the Covid-19 lockdown. The ability to check what
+coronavirus symptoms are is also implemented.
 
 ---------
 File List
