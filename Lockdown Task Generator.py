@@ -28,9 +28,6 @@ def watchVid():
 master = Tk()
 master.title("Coronavirus App")
 
-#now = datetime.datetime.now()
-#Label(master, text=now.strftime("%d/%m/%Y  %H:%M")).grid(row=0, column=1)
-
 Label(master, text="CURE CORONAVIRUS BOREDOM").grid(row=0, column=0, padx=10)
 Label(master, text="STAY HOME > PROTECT THE NHS > SAVE LIVES", fg="blue", bg="white").grid(row=1, column=0, padx=10)
 
