@@ -31,10 +31,11 @@ master.title("Coronavirus App")
 Label(master, text="CURE CORONAVIRUS BOREDOM").grid(row=0, column=0, padx=10)
 Label(master, text="STAY HOME > PROTECT THE NHS > SAVE LIVES", fg="blue", bg="white").grid(row=1, column=0, padx=10)
 
-Label(master, text="Covid19 Symptoms").grid(row=2, pady=10)
+Label(master, text="Do I have symptoms?").grid(row=2, pady=10)
 option = StringVar(master)
 option.set("View")
-symptom = OptionMenu(master,option, "Breathless", "Cough", "Fever", "Loss of taste/smell", "Shivering") #alphabetised
+#updated symptoms list 02/10/2020
+symptom = OptionMenu(master,option, "Breathless", "Continuous Cough", "Fever", "Loss/change of taste/smell", "Shivering") #alphabetised
 symptom.grid(row=2, column=1, sticky=W)
 
 Button(master, text='Check Symptom', command=checkSymptom).grid(row=2, column=2, sticky=W, pady=10)
